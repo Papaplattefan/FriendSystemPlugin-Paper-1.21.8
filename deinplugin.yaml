@@ -1,34 +1,18 @@
 specVersion: 1
 type: plugin
-
-name: FriendSystem
+name: Freunde System
 authors:
-  - DeinName
-
+  - Alo_YouTube, MagicLoris21
 supportedPlatforms:
-  - paper
-  - spigot
-
-supportedGameVersions: 1.21.8
-
-category: social
-
-introduction: >
-  Ein modernes Friendsystem mit GUI, Freundesanfragen und persistenter Speicherung.
-
-description: |
-  FriendSystem ist ein leichtgewichtiges Plugin für Paper 1.21.8.
-  Spieler können Freunde hinzufügen, entfernen und über ein GUI verwalten.
-
-  Features:
-  - Freundesanfragen (/friend request, accept, deny)
-  - Freunde-GUI mit Spieler-Köpfen
-  - Online/Offline Anzeige
-  - Speicherung über Server-Restarts hinweg
-
-installation:
-  - Plugin herunterladen
-  - In den plugins-Ordner legen
-  - Server starten
-
-videoSources: []
+  - Paper
+supportedGameVersion: 1.21.8
+category: misc
+introduction: Ein Plugin was ein sehr gut funktionierendes Freundesystem hinzufügt.
+description:
+ Dieses Plugin ermöglicht es dir mit /friend add und request eine freundschafts anfrage zu senden und mit einen Mausklick
+ oder /friend accept diese anfrage anzunehmen. WICHTIG es gibt probleme mit EssentialsX
+ installation:
+  de:
+    - Die Datei Herunterladen und in den plugins ordner ziehen
+    - Server neustarten oder Starten falls er noch nicht an ist
+    - Anschließend /friend add machen und freunde hinzufügen
