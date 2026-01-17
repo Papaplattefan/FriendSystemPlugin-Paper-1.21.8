@@ -1,0 +1,9 @@
+name: FriendPlugin
+version: 1.0
+main: de.deinserver.friendPlugin.FriendPlugin
+author: Alo_YouTube
+api-version: 1.21
+commands:
+  friend:
+    description: Friend commands
+    usage: /friend <add|remove|list|request|accept|deny> [Spieler]
